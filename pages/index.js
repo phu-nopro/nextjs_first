@@ -1,14 +1,13 @@
 import { Mainlayout } from '../components/ui/layout';
-import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className='container'>
 
-      <main className={styles.main}>
-
-        <Link href='/blog'>Blog</Link>
+      <main className='main'>
+        <div className='text-3xl'> hellllo</div>
+        <Link href='/blog'> <button> Blog page</button> </Link>
       </main>
 
     </div>

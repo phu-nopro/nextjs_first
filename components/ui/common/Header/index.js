@@ -1,12 +1,8 @@
 
-
-const Header = () => {
+export default function Header() {
     return (
-        <div className="">
-            {/* <Link href='/'><button>home</button></Link> */}
-            <p>Header page</p>
+        <div>
+
         </div>
     )
 }
-
-export default Header;
